@@ -1,0 +1,176 @@
+{
+    "bucket": [
+        {
+            "startTimeMillis": "1713031014511",
+            "endTimeMillis": "1713117414511",
+            "dataset": [
+                {
+                    "dataSourceId": "derived:com.google.distance.delta:com.google.android.gms:aggregated",
+                    "point": [
+                        {
+                            "startTimeNanos": "1713033463978417414",
+                            "endTimeNanos": "1713111688725074804",
+                            "dataTypeName": "com.google.distance.delta",
+                            "originDataSourceId": "raw:com.google.step_count.cumulative:samsung:SM-M536B:10dafbca:Step Counter",
+                            "value": [
+                                {
+                                    "fpVal": 3600.657369603024,
+                                    "mapVal": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "dataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:aggregated",
+                    "point": [
+                        {
+                            "startTimeNanos": "1713033463978417414",
+                            "endTimeNanos": "1713111688725074804",
+                            "dataTypeName": "com.google.step_count.delta",
+                            "originDataSourceId": "raw:com.google.step_count.cumulative:samsung:SM-M536B:10dafbca:Step Counter",
+                            "value": [
+                                {
+                                    "intVal": 5646,
+                                    "mapVal": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "dataSourceId": "derived:com.google.calories.expended:com.google.android.gms:aggregated",
+                    "point": [
+                        {
+                            "startTimeNanos": "1713091674584714764",
+                            "endTimeNanos": "1713106457137000000",
+                            "dataTypeName": "com.google.calories.expended",
+                            "originDataSourceId": "raw:com.google.calories.expended:com.huami.watch.hmwatchmanager:activity_calories_data_source",
+                            "value": [
+                                {
+                                    "fpVal": 128.83657513251356,
+                                    "mapVal": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "dataSourceId": "derived:com.google.heart_rate.summary:com.google.android.gms:aggregated",
+                    "point": [
+                        {
+                            "startTimeNanos": "1713031020000000000",
+                            "endTimeNanos": "1713117360000000000",
+                            "dataTypeName": "com.google.heart_rate.summary",
+                            "originDataSourceId": "raw:com.google.heart_rate.bpm:com.huami.watch.hmwatchmanager:heartbeat_data_source",
+                            "value": [
+                                {
+                                    "fpVal": 82.46664350243225,
+                                    "mapVal": []
+                                },
+                                {
+                                    "fpVal": 130,
+                                    "mapVal": []
+                                },
+                                {
+                                    "fpVal": 57,
+                                    "mapVal": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "dataSourceId": "derived:com.google.sleep.segment:com.google.android.gms:merged",
+                    "point": []
+                }
+            ]
+        },
+        {
+            "startTimeMillis": "1713117414511",
+            "endTimeMillis": "1713203814511",
+            "dataset": [
+                {
+                    "dataSourceId": "derived:com.google.distance.delta:com.google.android.gms:aggregated",
+                    "point": [
+                        {
+                            "startTimeNanos": "1713152078448056037",
+                            "endTimeNanos": "1713153892528029800",
+                            "dataTypeName": "com.google.distance.delta",
+                            "originDataSourceId": "raw:com.google.step_count.cumulative:samsung:SM-M536B:10dafbca:Step Counter",
+                            "value": [
+                                {
+                                    "fpVal": 438.72927423872494,
+                                    "mapVal": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "dataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:aggregated",
+                    "point": [
+                        {
+                            "startTimeNanos": "1713152078448056037",
+                            "endTimeNanos": "1713163627164120061",
+                            "dataTypeName": "com.google.step_count.delta",
+                            "originDataSourceId": "raw:com.google.step_count.cumulative:samsung:SM-M536B:10dafbca:Step Counter",
+                            "value": [
+                                {
+                                    "intVal": 713,
+                                    "mapVal": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "dataSourceId": "derived:com.google.calories.expended:com.google.android.gms:aggregated",
+                    "point": [
+                        {
+                            "startTimeNanos": "1713117420000000000",
+                            "endTimeNanos": "1713152821795000000",
+                            "dataTypeName": "com.google.calories.expended",
+                            "originDataSourceId": "derived:com.google.calories.expended:com.google.android.fit:samsung:SM-M536B:10dafbca:top_level",
+                            "value": [
+                                {
+                                    "fpVal": 73.48831642353113,
+                                    "mapVal": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "dataSourceId": "derived:com.google.heart_rate.summary:com.google.android.gms:aggregated",
+                    "point": [
+                        {
+                            "startTimeNanos": "1713117420000000000",
+                            "endTimeNanos": "1713156720000000000",
+                            "dataTypeName": "com.google.heart_rate.summary",
+                            "originDataSourceId": "raw:com.google.heart_rate.bpm:com.huami.watch.hmwatchmanager:heartbeat_data_source",
+                            "value": [
+                                {
+                                    "fpVal": 70.21832061068702,
+                                    "mapVal": []
+                                },
+                                {
+                                    "fpVal": 125,
+                                    "mapVal": []
+                                },
+                                {
+                                    "fpVal": 46,
+                                    "mapVal": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "dataSourceId": "derived:com.google.sleep.segment:com.google.android.gms:merged",
+                    "point": []
+                }
+            ]
+        }
+    ]
+}

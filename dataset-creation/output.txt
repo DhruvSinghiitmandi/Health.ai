@@ -1,0 +1,224 @@
+Age: 49, Sex: Female
+Ground truth pathology: GERD
+
+Initial Evidence: Do you have a cough?: Yes
+
+Symptoms: 
+Do you have pain somewhere, related to your reason for consulting?: No
+Characterize your pain:: haunting, sensitive, tugging, burning
+Do you feel pain somewhere?: lower chest, upper chest, hypochondrium(R)
+On a scale of 0 to 10, How intense is the pain?: 6
+Does the pain radiate to another location?: lower chest, upper chest
+On a scale of 0 to 10, How precisely is the pain located?: 3
+On a scale of 0 to 10, How fast did the pain appear?: 2
+Have you recently had stools that were black (like coal)?: No
+Do you have a burning sensation that starts in your stomach then goes up into your throat, and can be associated with a bitter taste in your mouth?: No
+Do you have a cough?: No
+Are your symptoms worse when lying down and alleviated while sitting up?: No
+
+Differential Diagnosis: `[['Bronchitis', 0.20230062181160519], ['GERD', 0.17922682408564053], ['Possible NSTEMI / STEMI', 0.14309132471769756], ['Unstable angina', 0.1344856218328563], ['Pericarditis', 0.09757216830089709], ['Anemia', 0.09706153313080657], ['Stable angina', 0.07488477210980934], ['Boerhaave', 0.07137713401068731]]`.
+
+🐻
+
+Age: 2, Sex: Male
+Ground truth pathology: Bronchitis
+
+Initial Evidence: Do you have pain somewhere, related to your reason for consulting?: Yes
+
+Symptoms: 
+Do you have pain somewhere, related to your reason for consulting?: No
+Characterize your pain:: burning
+Do you feel pain somewhere?: side of the chest(R), pharynx
+On a scale of 0 to 10, How intense is the pain?: 5
+Does the pain radiate to another location?: nowhere
+On a scale of 0 to 10, How precisely is the pain located?: 7
+On a scale of 0 to 10, How fast did the pain appear?: 4
+Are you experiencing shortness of breath or difficulty breathing in a significant way?: No
+Do you have nasal congestion or a clear runny nose?: No
+Do you have a cough?: No
+Have you noticed a wheezing sound when you exhale?: No
+
+Differential Diagnosis: `[['Bronchospasm / acute asthma exacerbation', 0.0802201660064834], ['Influenza', 0.06940463222398906], ['Viral pharyngitis', 0.0655942933919721], ['Allergic sinusitis', 0.06552892428208987], ['Pneumonia', 0.06545017163298406], ['Bronchitis', 0.06364201476444997], ['Spontaneous pneumothorax', 0.059378243534228575], ['Tuberculosis', 0.04690915875550665], ['URTI', 0.046759599824355666], ['Myocarditis', 0.04651861210731325], ['Anaphylaxis', 0.04572069791718869], ['Acute laryngitis', 0.04358843624121155], ['Guillain-Barré syndrome', 0.04179138110732587], ['Croup', 0.04179138110732587], ['Atrial fibrillation', 0.03991832618321649], ['Acute dystonic reactions', 0.02942992438565071], ['Myasthenia gravis', 0.02942992438565071], ['Anemia', 0.02942992438565071], ['Scombroid food poisoning', 0.027190751855561253], ['Sarcoidosis', 0.024100679101770887], ['PSVT', 0.015720427742588923], ['SLE', 0.013624650147256443], ['Chagas', 0.008857678916229164]]`.
+
+🐻
+
+Age: 49, Sex: Male
+Ground truth pathology: Acute dystonic reactions
+
+Initial Evidence: Have you ever felt like you were suffocating for a very short time associated with inability to breathe or speak?: Yes
+
+Symptoms: 
+Have you ever felt like you were suffocating for a very short time associated with inability to breathe or speak?: No
+Do you have trouble keeping your tongue in your mouth?: No
+Do you have a hard time opening/raising one or both eyelids?: No
+Do you have annoying muscle spasms in your face, neck or any other part of your body?: No
+
+Differential Diagnosis: `[['Acute dystonic reactions', 0.626705084816586], ['Myasthenia gravis', 0.37329491518341407]]`.
+
+🐻
+
+Age: 64, Sex: Male
+Ground truth pathology: Acute laryngitis
+
+Initial Evidence: Do you have pain somewhere, related to your reason for consulting?: Yes
+
+Symptoms: 
+Do you have pain somewhere, related to your reason for consulting?: No
+Characterize your pain:: burning
+Do you feel pain somewhere?: tonsil(R), tonsil(L), pharynx
+On a scale of 0 to 10, How intense is the pain?: 2
+Does the pain radiate to another location?: nowhere
+On a scale of 0 to 10, How precisely is the pain located?: 4
+On a scale of 0 to 10, How fast did the pain appear?: 4
+Do you have a fever (either felt or measured with a thermometer)?: No
+Do you have a cough?: No
+Have you noticed that the tone of your voice has become deeper, softer or hoarse?: No
+
+Differential Diagnosis: `[['Bronchitis', 0.2748608320637265], ['Acute laryngitis', 0.2363915843443387], ['Tuberculosis', 0.18044091349360766], ['Viral pharyngitis', 0.16947754556569142], ['Influenza', 0.13882912453263577]]`.
+
+🐻
+
+Age: 70, Sex: Female
+Ground truth pathology: URTI
+
+Initial Evidence: Do you have a cough?: Yes
+
+Symptoms: 
+Have you had significantly increased sweating?: No
+Do you have pain somewhere, related to your reason for consulting?: No
+Characterize your pain:: sensitive, heavy
+Do you feel pain somewhere?: top of the head, forehead, cheek(R), cheek(L), occiput
+On a scale of 0 to 10, How intense is the pain?: 7
+Does the pain radiate to another location?: nowhere
+On a scale of 0 to 10, How precisely is the pain located?: 3
+On a scale of 0 to 10, How fast did the pain appear?: 0
+Do you have a fever (either felt or measured with a thermometer)?: No
+Do you have a sore throat?: No
+Do you have diffuse (widespread) muscle pain?: No
+Do you have nasal congestion or a clear runny nose?: No
+Do you have a cough?: No
+
+Differential Diagnosis: `[['URTI', 0.21257615919851483], ['Influenza', 0.19836414963189655], ['Bronchitis', 0.14918640455022994], ['HIV (initial infection)', 0.11200448351952089], ['Pneumonia', 0.10129013031905063], ['Tuberculosis', 0.08111736637349125], ['Chronic rhinosinusitis', 0.06839203480644512], ['Acute rhinosinusitis', 0.04422007998107844], ['Chagas', 0.032849191619772226]]`.
+
+🐻
+
+Age: 45, Sex: Female
+Ground truth pathology: URTI
+
+Initial Evidence: Do you have diffuse (widespread) muscle pain?: Yes
+
+Symptoms: 
+Do you have pain somewhere, related to your reason for consulting?: No
+Characterize your pain:: sensitive
+Do you feel pain somewhere?: top of the head, forehead, cheek(R), occiput, temple(L)
+On a scale of 0 to 10, How intense is the pain?: 7
+Does the pain radiate to another location?: nowhere
+On a scale of 0 to 10, How precisely is the pain located?: 3
+On a scale of 0 to 10, How fast did the pain appear?: 0
+Do you have a cough that produces colored or more abundant sputum than usual?: No
+Do you have a fever (either felt or measured with a thermometer)?: No
+Do you have a sore throat?: No
+Do you have diffuse (widespread) muscle pain?: No
+Do you have a cough?: No
+
+Differential Diagnosis: `[['Pneumonia', 0.18812493682749565], ['Bronchitis', 0.17875988068946655], ['Influenza', 0.14539255602119877], ['URTI', 0.14111457685887857], ['HIV (initial infection)', 0.11911680425199456], ['Tuberculosis', 0.09770865273458021], ['Bronchiectasis', 0.08330796699624858], ['Chagas', 0.04647462562013707]]`.
+
+🐻
+
+Age: 52, Sex: Male
+Ground truth pathology: Inguinal hernia
+
+Initial Evidence: Do you have pain somewhere, related to your reason for consulting?: Yes
+
+Symptoms: 
+Do you have pain somewhere, related to your reason for consulting?: No
+Characterize your pain:: heavy
+Do you feel pain somewhere?: iliac fossa(R), iliac fossa(L), hip(R), hip(L), testicle(L)
+On a scale of 0 to 10, How intense is the pain?: 1
+Does the pain radiate to another location?: nowhere
+On a scale of 0 to 10, How precisely is the pain located?: 6
+On a scale of 0 to 10, How fast did the pain appear?: 3
+Do you have any lesions, redness or problems on your skin that you believe are related to the condition you are consulting for?: No
+What color is the rash?: pale
+Do your lesions peel off?: N
+On a scale of 0 to 10, Is the rash swollen?: 5
+Where is the affected region located?: iliac fossa(L)
+On a scale of 0 to 10, How intense is the pain caused by the rash?: 4
+Is the lesion (or are the lesions) larger than 1cm?: Y
+On a scale of 0 to 10, How severe is the itching?: 0
+Do you have intense coughing fits?: No
+Are the symptoms or pain increased with coughing, with an effort like lifting a weight or from forcing a bowel movement?: No
+
+Differential Diagnosis: `[['Inguinal hernia', 0.3058721878704072], ['Bronchitis', 0.24120920027956017], ['Anaphylaxis', 0.17732215320675862], ['Whooping cough', 0.1645981181029441], ['Scombroid food poisoning', 0.11099834054032988]]`.
+
+🐻
+
+Age: 97, Sex: Male
+Ground truth pathology: Spontaneous pneumothorax
+
+Initial Evidence: Do you have chest pain even at rest?: Yes
+
+Symptoms: 
+Do you have chest pain even at rest?: No
+Do you have pain somewhere, related to your reason for consulting?: No
+Characterize your pain:: heartbreaking, violent
+Do you feel pain somewhere?: breast(R)
+On a scale of 0 to 10, How intense is the pain?: 7
+Does the pain radiate to another location?: nowhere
+On a scale of 0 to 10, How precisely is the pain located?: 4
+On a scale of 0 to 10, How fast did the pain appear?: 5
+Are you experiencing shortness of breath or difficulty breathing in a significant way?: No
+Do you have symptoms that are increased with physical exertion but alleviated with rest?: No
+Do you have pain that is increased when you breathe in deeply?: No
+
+Differential Diagnosis: `[['Unstable angina', 0.1069190530542801], ['Spontaneous pneumothorax', 0.10623392228338295], ['Possible NSTEMI / STEMI', 0.09127403180165326], ['Pulmonary embolism', 0.09069042040148312], ['Stable angina', 0.08903416547770727], ['Atrial fibrillation', 0.07281625511964626], ['Panic attack', 0.0702404348855412], ['Myocarditis', 0.06923728345917014], ['Acute pulmonary edema', 0.06642348093088675], ['Pericarditis', 0.0659776259105425], ['Guillain-Barré syndrome', 0.06277737180113709], ['Acute dystonic reactions', 0.04420847687451707], ['Sarcoidosis', 0.03620309385675092], ['Scombroid food poisoning', 0.027964384143301362]]`.
+
+🐻
+
+Age: 61, Sex: Female
+Ground truth pathology: Bronchitis
+
+Initial Evidence: Do you have pain somewhere, related to your reason for consulting?: Yes
+
+Symptoms: 
+Do you have pain somewhere, related to your reason for consulting?: No
+Characterize your pain:: sensitive, burning
+Do you feel pain somewhere?: side of the chest(L), upper chest, pharynx, breast(R), posterior chest wall(R)
+On a scale of 0 to 10, How intense is the pain?: 1
+Does the pain radiate to another location?: nowhere
+On a scale of 0 to 10, How precisely is the pain located?: 7
+On a scale of 0 to 10, How fast did the pain appear?: 0
+Do you have a cough that produces colored or more abundant sputum than usual?: No
+Do you have a fever (either felt or measured with a thermometer)?: No
+Do you have a sore throat?: No
+Do you have nasal congestion or a clear runny nose?: No
+Do you have a cough?: No
+Have you noticed a wheezing sound when you exhale?: No
+
+Differential Diagnosis: `[['URTI', 0.09488081415129002], ['Acute COPD exacerbation / infection', 0.09139461616777693], ['Bronchitis', 0.08979771667888672], ['Viral pharyngitis', 0.07943072545567578], ['Pneumonia', 0.07421907640887553], ['GERD', 0.06919286839078304], ['Influenza', 0.06341212983152902], ['Bronchospasm / acute asthma exacerbation', 0.06332400234930885], ['Bronchiectasis', 0.059871577554606974], ['Tuberculosis', 0.054756489098705986], ['Acute laryngitis', 0.05278296225295781], ['Possible NSTEMI / STEMI', 0.05012926090514055], ['Boerhaave', 0.046602933638172556], ['Unstable angina', 0.04224180839496357], ['Pericarditis', 0.02853059446507322], ['Stable angina', 0.024249476324547763], ['Scombroid food poisoning', 0.015182947931705632]]`.
+
+🐻
+
+Age: 50, Sex: Male
+Ground truth pathology: GERD
+
+Initial Evidence: Have you recently had stools that were black (like coal)?: Yes
+
+Symptoms: 
+Do you have pain somewhere, related to your reason for consulting?: No
+Characterize your pain:: haunting, sensitive, burning, sickening
+Do you feel pain somewhere?: lower chest, hypochondrium(R), hypochondrium(L), belly, epigastric
+On a scale of 0 to 10, How intense is the pain?: 9
+Does the pain radiate to another location?: upper chest
+On a scale of 0 to 10, How precisely is the pain located?: 3
+On a scale of 0 to 10, How fast did the pain appear?: 0
+Have you recently had stools that were black (like coal)?: No
+Do you have a burning sensation that starts in your stomach then goes up into your throat, and can be associated with a bitter taste in your mouth?: No
+Do you have a cough?: No
+Do you have symptoms that get worse after eating?: No
+Are your symptoms worse when lying down and alleviated while sitting up?: No
+
+Differential Diagnosis: `[['GERD', 0.19295990185436054], ['Bronchitis', 0.15265157231598356], ['Pericarditis', 0.13314773370230099], ['Spontaneous rib fracture', 0.10157147150232512], ['Unstable angina', 0.10147987407471523], ['Anemia', 0.07324048493343574], ['Possible NSTEMI / STEMI', 0.07023083501924977], ['Tuberculosis', 0.06232180094615439], ['Stable angina', 0.05650639183764853], ['Pancreatic neoplasm', 0.055889933813825954]]`.
+
+🐻
+

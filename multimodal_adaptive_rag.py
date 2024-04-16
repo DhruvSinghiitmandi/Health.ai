@@ -34,6 +34,7 @@ In our implementation, we will route between:
 
 ### LLMs
 import os
+os.environ['OPENAI_API_KEY'] = "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"
 #os.environ['COHERE_API_KEY'] = <your-api-key>
 os.environ['TAVILY_API_KEY'] = "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"
 

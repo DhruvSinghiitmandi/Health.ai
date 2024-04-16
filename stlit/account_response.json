@@ -1,0 +1,34 @@
+{
+    "resourceName": "people/103889243909810813134",
+    "etag": "%EgcBAgkuNz0+GgQBAgUHIgxNNVZPbTV2UVJFRT0=",
+    "names": [
+        {
+            "metadata": {
+                "primary": true,
+                "source": {
+                    "type": "PROFILE",
+                    "id": "103889243909810813134"
+                },
+                "sourcePrimary": true
+            },
+            "displayName": "Satyam Kumar",
+            "familyName": "Kumar",
+            "givenName": "Satyam",
+            "displayNameLastFirst": "Kumar, Satyam",
+            "unstructuredName": "Satyam Kumar"
+        },
+        {
+            "metadata": {
+                "source": {
+                    "type": "DOMAIN_PROFILE",
+                    "id": "103889243909810813134"
+                }
+            },
+            "displayName": "Satyam Kumar IIT Mandi",
+            "familyName": "IIT Mandi",
+            "givenName": "Satyam Kumar",
+            "displayNameLastFirst": "Satyam Kumar IIT Mandi",
+            "unstructuredName": "Satyam Kumar IIT Mandi"
+        }
+    ]
+}
