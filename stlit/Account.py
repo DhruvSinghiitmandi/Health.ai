@@ -10,11 +10,15 @@ import pickle
 import os.path
 import json
 import streamlit as st
+import os
+import streamlit.components.v1 as com
+import subprocess
 os.environ['OAUTHLIB_RELAX_TOKEN_SCOPE'] = "1"
 
-# Copy your credentials from the Google Developers Console
-CLIENT_ID = '848489894996-7m4n86nvnruvu9g33871i4cnos9s2e1h.apps.googleusercontent.com'
-CLIENT_SECRET = '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'
+
+# credentials from the Google Developers Console
+CLIENT_ID = os.environ.get('CLIENT_ID')
+CLIENT_SECRET = os.environ.get('CLIENT_SECRET')
 
 # Check https://developers.google.com/fit/rest/v1/reference/users/dataSources/datasets/get
 # for all available scopes
@@ -53,19 +57,9 @@ def get_credentials():
             creds = Credentials.from_authorized_user_info(creds_data, SCOPES)
     return creds
 
-
-
-
-
-
-
-
-
-
 creds = get_credentials()
-print(creds)
-#REMOVE THTIS
-if (not creds or not creds.valid):
+
+if not creds or not creds.valid:
     if creds and creds.expired and creds.refresh_token:
         creds.refresh(Request())
     else:
@@ -81,7 +75,14 @@ if (not creds or not creds.valid):
                 token.write(creds.to_json())
                 st.rerun()
 else:
-    st.switch_page('pages/Home.py')
+    if st.button('Continue to Chat'):
+        st.switch_page('pages/Home.py')
+
+    if st.button('Sign Out'):
+        subprocess.Popen("rm ./token.json",shell=True)
+        time.sleep(0.5)
+        st.rerun()
+        
 
 
 
