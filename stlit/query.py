@@ -57,6 +57,8 @@ def fetch_fitness_data(token, output_file_name="./config/fitdata.json"):
 
     else:
         print("Error:", response.status_code, response.text)
+        data = {}
+        return 1
 
     # print("Data for the last 2 days:\n")
 
@@ -185,6 +187,9 @@ def fetch_fitness_data_old(token, output_file_name="./config/fitdata.json"):
 
     else:
         print("Error:", response.status_code, response.text)
+        data = {}
+        return 1
+
 
     # print("Data for the last 2 days:\n")
 
@@ -256,3 +261,38 @@ def fetch_fitness_data_old(token, output_file_name="./config/fitdata.json"):
         json.dump(output, f, indent=4)
 
     return output
+
+
+
+def fetch_name(token):
+    output = {}
+
+    account_query_url = "https://people.googleapis.com/v1/people/me?personFields=names,emailAddresses"
+
+        # Define the headers
+    headers = {
+        "Authorization": "Bearer " + token,
+        "Content-Type": "application/json;encoding=utf-8"
+    }
+
+    # Make the GET request
+    response = requests.get(account_query_url, headers=headers)
+
+    # Check the response status
+    if response.status_code == 200:
+        print("Request successful!\n")
+        # dump with 4 spaces of indentation
+        # print(json.dumps(response.json(), indent=4))
+        file = response.json()
+        # write the data to a JSON file
+        with open("./config/account_info.json", "w") as f:
+            json.dump(file, f, indent=4)
+
+        name = file["names"][0]["displayName"]
+        output["name"] = name
+        print("Name:", file["names"][0]["displayName"])
+
+        return output
+
+    else:
+        print("Error:", response.status_code, response.text)

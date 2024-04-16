@@ -23,8 +23,10 @@ except FileNotFoundError:
 
 from query import fetch_fitness_data
 from query import fetch_fitness_data_old
+from query import fetch_name
 fit_data = fetch_fitness_data(token)
 old_fit_data = fetch_fitness_data_old(token)
+name = fetch_name(token)
 
 st.set_option('deprecation.showfileUploaderEncoding', False)
 st.set_page_config(page_title="Health.AI", page_icon="🩺", layout="wide")
@@ -48,10 +50,18 @@ col1, col2 = st.columns([1, 3])
 # Display Lottie animation in the first column
 with col1:
     com.iframe("https://lottie.host/embed/5899ceed-3498-4546-8ebf-b25561f40002/Xnif8r8nZ4.json", height=400, width=950)
-st.markdown(colored_markdown(f"{fit_data['name']}", "#007bff"),
-            unsafe_allow_html=True)  # Blue color
-st.markdown(colored_markdown("How can I help you today ?", "#39A5A9"),
-            unsafe_allow_html=True)  # Red color
+
+try:
+    st.markdown(colored_markdown(f"{fit_data['name']}", "#007bff"),
+                unsafe_allow_html=True)  # Blue color
+    st.markdown(colored_markdown("How can I help you today ?", "#39A5A9"),
+                unsafe_allow_html=True)  # Red color
+except:
+
+    st.markdown(colored_markdown(f"{name['name']}", "#007bff"),
+                unsafe_allow_html=True)  # Blue color
+    st.markdown(colored_markdown("How can I help you today ?", "#39A5A9"),
+                unsafe_allow_html=True)  # Red color
 
 st.markdown(
     """
@@ -197,20 +207,22 @@ st.sidebar.write("##")
 st.sidebar.markdown("<h2 style='text-align: center;'>User Dashboard</h2>", unsafe_allow_html=True)
 st.sidebar.write("##")
 
-col1, col2 = st.sidebar.columns(2)
-col1.metric(label="Distance Covered", value=int(fit_data['distance']), delta=int(fit_data['distance'])-int(old_fit_data['distance']))
-col2.button("View Details", key="distance")
+if fit_data != 1:
+    col1, col2 = st.sidebar.columns(2)
 
-col1, col2 = st.sidebar.columns(2)
-col1.metric(label="Step Count", value=fit_data['steps'], delta=int(fit_data['steps'])-int(old_fit_data['steps']))
-col2.button("View Details", key="steps")
+    col1.metric(label="Distance Covered", value=int(fit_data['distance']), delta=int(fit_data['distance'])-int(old_fit_data['distance']))
+    col2.button("View Details", key="distance")
+    
+    col1, col2 = st.sidebar.columns(2)
+    col1.metric(label="Step Count", value=fit_data['steps'], delta=int(fit_data['steps'])-int(old_fit_data['steps']))
+    col2.button("View Details", key="steps")
 
-col1, col2 = st.sidebar.columns(2)
-col1.metric(label="Calories Burned", value=int(fit_data['calories']), delta=int(fit_data['calories'])-int(old_fit_data['calories']))
-col2.button("View Details", key="calories")
+    col1, col2 = st.sidebar.columns(2)
+    col1.metric(label="Calories Burned", value=int(fit_data['calories']), delta=int(fit_data['calories'])-int(old_fit_data['calories']))
+    col2.button("View Details", key="calories")
 
-col1, col2 = st.sidebar.columns(2)
-col1.metric(label="Heart Rate", value=int(fit_data['heart_rate']), delta=int(fit_data['heart_rate'])-int(old_fit_data['heart_rate']))
-col2.button("View Details", key="heart_rate")
+    col1, col2 = st.sidebar.columns(2)
+    col1.metric(label="Heart Rate", value=int(fit_data['heart_rate']), delta=int(fit_data['heart_rate'])-int(old_fit_data['heart_rate']))
+    col2.button("View Details", key="heart_rate")
 
 

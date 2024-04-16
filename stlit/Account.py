@@ -66,7 +66,7 @@ if not creds or not creds.valid:
         st.markdown(f'<img src="https://i.imgur.com/ngr2HSn.png" width="200">',
                     unsafe_allow_html=True) 
         st.markdown('##')
-        st.write('Welcome to HealthAI! Please sign in with your Google Account to continue.')
+        st.write('Welcome to Health.AI ! Please sign in with your Google Account to continue.')
         if st.button('Sign In with Google'):
             flow = InstalledAppFlow.from_client_secrets_file(CLIENT_FILE, SCOPES, redirect_uri=REDIRECT_URI)
             creds = flow.run_local_server(port=8080)

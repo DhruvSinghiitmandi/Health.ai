@@ -1,8 +1,8 @@
 {
     "bucket": [
         {
-            "startTimeMillis": "1712991558690",
-            "endTimeMillis": "1713077958690",
+            "startTimeMillis": "1712993484202",
+            "endTimeMillis": "1713079884202",
             "dataset": [
                 {
                     "dataSourceId": "derived:com.google.distance.delta:com.google.android.gms:aggregated",
@@ -59,13 +59,13 @@
                     "dataSourceId": "derived:com.google.heart_rate.summary:com.google.android.gms:aggregated",
                     "point": [
                         {
-                            "startTimeNanos": "1712991600000000000",
-                            "endTimeNanos": "1713077940000000000",
+                            "startTimeNanos": "1712993520000000000",
+                            "endTimeNanos": "1713079860000000000",
                             "dataTypeName": "com.google.heart_rate.summary",
                             "originDataSourceId": "raw:com.google.heart_rate.bpm:com.huami.watch.hmwatchmanager:heartbeat_data_source",
                             "value": [
                                 {
-                                    "fpVal": 82.81341209173037,
+                                    "fpVal": 82.91904100069493,
                                     "mapVal": []
                                 },
                                 {
@@ -87,20 +87,20 @@
             ]
         },
         {
-            "startTimeMillis": "1713077958690",
-            "endTimeMillis": "1713164358690",
+            "startTimeMillis": "1713079884202",
+            "endTimeMillis": "1713166284202",
             "dataset": [
                 {
                     "dataSourceId": "derived:com.google.distance.delta:com.google.android.gms:aggregated",
                     "point": [
                         {
                             "startTimeNanos": "1713081425225506341",
-                            "endTimeNanos": "1713153892528029800",
+                            "endTimeNanos": "1713166284202000000",
                             "dataTypeName": "com.google.distance.delta",
                             "originDataSourceId": "raw:com.google.step_count.cumulative:samsung:SM-M536B:10dafbca:Step Counter",
                             "value": [
                                 {
-                                    "fpVal": 3422.51927926919,
+                                    "fpVal": 4231.001129817923,
                                     "mapVal": []
                                 }
                             ]
@@ -112,12 +112,12 @@
                     "point": [
                         {
                             "startTimeNanos": "1713081425225506341",
-                            "endTimeNanos": "1713163627164120061",
+                            "endTimeNanos": "1713166284202000000",
                             "dataTypeName": "com.google.step_count.delta",
                             "originDataSourceId": "raw:com.google.step_count.cumulative:samsung:SM-M536B:10dafbca:Step Counter",
                             "value": [
                                 {
-                                    "intVal": 5398,
+                                    "intVal": 6640,
                                     "mapVal": []
                                 }
                             ]
@@ -129,12 +129,12 @@
                     "point": [
                         {
                             "startTimeNanos": "1713091674584714764",
-                            "endTimeNanos": "1713152821795000000",
+                            "endTimeNanos": "1713166284202000000",
                             "dataTypeName": "com.google.calories.expended",
-                            "originDataSourceId": "raw:com.google.calories.expended:com.huami.watch.hmwatchmanager:activity_calories_data_source",
+                            "originDataSourceId": "derived:com.google.calories.expended:com.google.android.fit:samsung:SM-M536B:10dafbca:top_level",
                             "value": [
                                 {
-                                    "fpVal": 202.3248915560447,
+                                    "fpVal": 290.3444925053098,
                                     "mapVal": []
                                 }
                             ]
@@ -145,13 +145,13 @@
                     "dataSourceId": "derived:com.google.heart_rate.summary:com.google.android.gms:aggregated",
                     "point": [
                         {
-                            "startTimeNanos": "1713078000000000000",
+                            "startTimeNanos": "1713079920000000000",
                             "endTimeNanos": "1713156720000000000",
                             "dataTypeName": "com.google.heart_rate.summary",
                             "originDataSourceId": "raw:com.google.heart_rate.bpm:com.huami.watch.hmwatchmanager:heartbeat_data_source",
                             "value": [
                                 {
-                                    "fpVal": 77.71608231707317,
+                                    "fpVal": 77.676171875,
                                     "mapVal": []
                                 },
                                 {
@@ -173,20 +173,20 @@
             ]
         },
         {
-            "startTimeMillis": "1713164358690",
-            "endTimeMillis": "1713250758690",
+            "startTimeMillis": "1713166284202",
+            "endTimeMillis": "1713252684202",
             "dataset": [
                 {
                     "dataSourceId": "derived:com.google.distance.delta:com.google.android.gms:aggregated",
                     "point": [
                         {
-                            "startTimeNanos": "1713164518204185293",
+                            "startTimeNanos": "1713166284202000000",
                             "endTimeNanos": "1713202761301352339",
                             "dataTypeName": "com.google.distance.delta",
                             "originDataSourceId": "raw:com.google.step_count.cumulative:samsung:SM-M536B:10dafbca:Step Counter",
                             "value": [
                                 {
-                                    "fpVal": 4198.231329972387,
+                                    "fpVal": 3389.749479423656,
                                     "mapVal": []
                                 }
                             ]
@@ -197,13 +197,13 @@
                     "dataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:aggregated",
                     "point": [
                         {
-                            "startTimeNanos": "1713164518204185293",
+                            "startTimeNanos": "1713166284202000000",
                             "endTimeNanos": "1713202761301352339",
                             "dataTypeName": "com.google.step_count.delta",
                             "originDataSourceId": "raw:com.google.step_count.cumulative:samsung:SM-M536B:10dafbca:Step Counter",
                             "value": [
                                 {
-                                    "intVal": 6384,
+                                    "intVal": 5142,
                                     "mapVal": []
                                 }
                             ]
@@ -214,13 +214,13 @@
                     "dataSourceId": "derived:com.google.calories.expended:com.google.android.gms:aggregated",
                     "point": [
                         {
-                            "startTimeNanos": "1713164744204196557",
+                            "startTimeNanos": "1713166284202000000",
                             "endTimeNanos": "1713195553134000000",
                             "dataTypeName": "com.google.calories.expended",
                             "originDataSourceId": "derived:com.google.calories.expended:com.google.android.fit:samsung:SM-M536B:10dafbca:top_level",
                             "value": [
                                 {
-                                    "fpVal": 305.84764436384074,
+                                    "fpVal": 217.82804341457566,
                                     "mapVal": []
                                 }
                             ]
