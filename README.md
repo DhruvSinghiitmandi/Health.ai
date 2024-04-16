@@ -24,6 +24,10 @@ streamlit run Account.py
 ```
 The application should be up and running in your browser.
 
+###
+![Screenshot from 2024-04-16 11-50-39](https://github.com/DhruvSinghiitmandi/Health.ai/assets/126661857/ce01b2d1-a275-4f7a-a308-cb0e92d5a499)
+
+
 
  
 
