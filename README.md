@@ -2,7 +2,7 @@
 
 Health.AI is a personal healthcare assistant which is equipped with multimodal RAG (Retrieval Augmented Generation), capable of handling complex medical queries and asking follow-up questions to arrive at a differential diagnosis for the patient along with relevant suggestions. 
 
-The chatbot is powered by LLaVA and [ddx-llama](https://ollama.com/dhruvsingh959/ddx-llama), a version of the open-source LLama 2, which we fine-tuned on our own [dataset](https://huggingface.co/datasets/satyam-03/opdx-dataset) consisting of 10k samples of medical conversations between a doctor and a patient that we generated using the publicly available [DDXPlus](https://github.com/mila-iqia/ddxplus) dataset of synthetic patient symptoms, antecedents and their respective differential diagnoses. 
+The chatbot is powered by LLaVA and [ddx-llama](https://ollama.com/dhruvsingh959/ddx-llama), a version of the open-source LLama 2, which we fine-tuned on our own [dataset](https://huggingface.co/datasets/satyam-03/ddx-conversations-10k) consisting of 10k samples of medical conversations between a doctor and a patient that we generated using the publicly available [DDXPlus](https://github.com/mila-iqia/ddxplus) dataset of synthetic patient symptoms, antecedents and their respective differential diagnoses. 
 
 ![Screenshot from 2024-04-16 11-50-39](https://github.com/DhruvSinghiitmandi/Health.ai/assets/126661857/ce01b2d1-a275-4f7a-a308-cb0e92d5a499)
 
